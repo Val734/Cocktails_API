@@ -1,0 +1,315 @@
+div.locations
+{
+	margin: 0 auto;
+	max-width: 1100px;
+	position: relative;
+	display: block;
+	text-align: inherit;
+	padding-right: 50px;
+}
+
+Foramto del menu*/
+ul.locations_menu
+{
+	margin: 0 0px;
+	width: auto;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+/*/*Formato de cada apartado del menu*/
+
+li.browse_options
+{
+	display: inline-block;/* para que aparezca uno al lado del otro*/
+	position: relative;
+	height: 50px;
+  color: rgb(255, 255, 255);
+  margin-right: 110px;
+  margin-left: 30px;
+   
+}
+/*/*Formato del resto de links*/
+.link
+{
+	
+	height: 25px;
+	display: inline-block;
+	text-decoration: none;
+	overflow: hidden;
+	top: 25%;
+	position: relative;
+	color: rgb(199, 169, 104);
+	font-size: 25px;
+	display: flex;
+	float: right; 
+	font-family: "fuente";
+	-webkit-text-stroke: 2px rgb(145, 108, 28, 0.411);
+}
+		
+#fondo
+{
+    /*margin:0 0;*/
+    background-image :url("../imagen/principal.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	/*background-size: cover;*/ 
+}
+#cocteles
+{
+	background-image :url("../imagen/2.jpg");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+#ingredientes
+{
+    /*margin:0 0;*/
+    background-image :url("../imagen/4.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	/*background-size: cover;*/ 
+}
+#tipos
+{
+    /*margin:0 0;*/
+    background-image :url("../imagen/3.webp");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	/*background-size: cover;*/ 
+}
+#examen
+{
+    /*margin:0 0;*/
+    background-image :url("../imagen/5.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	/*background-size: cover;*/ 
+}
+#imageheader
+{
+
+    height: 100px;
+	background-size: cover;
+}
+body
+{
+    height: 1000px;
+}
+/*-----------------------INDEX.HTML y html1--------------------------------------*/
+#header1
+{
+	margin: 0;
+	width: 100%;
+	min-width: 1200px;
+	height: 170px;
+	font-size: 20px;
+	font-family: "fuente";
+	background: rgba(145, 108, 28, 0.411);
+	border-bottom: 1px solid rgba(241, 169, 12, 0.6);
+	text-align: center;	
+}
+
+
+#imageheader1
+{
+    height: 150px;
+	width: 150px;
+	float:left; 
+	margin-right: 30px;
+}
+
+a
+{
+	padding-top: 50px;
+}
+.json
+{
+	margin-top: 200px;
+}
+h1
+{
+	font-family: "fuente";
+	margin-top: 65px;
+	margin-left:45%; 
+	-webkit-box-reflect: below -25px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.5)));
+	color:rgb(201, 160, 40);
+	-webkit-text-stroke: 1px rgb(129, 92, 11);
+}
+#right_description
+{
+
+	width: 400px;
+	height: 350px;
+	font-family: "fuente";
+	text-align: justify;
+  	text-justify: inter-word;
+	margin-left: 42%; 
+	background-color: rgba(201, 160, 40);
+	margin-top: 30px;
+	font-size: 20px;
+	color: rgb(129, 92, 11);
+	padding:10px;
+	line-height : 28px;
+	border-radius: 50px 50px;
+}
+
+@font-face 
+{
+	font-family: "fuente";
+	src: url(../font/fuente.ttf);
+
+}
+footer
+{
+	clear:both;
+	
+    width: 160px;
+	margin-left: 50%;
+	font-family: "fuente";
+	src: url(../font/fuente.ttf);
+	color:rgb(201, 160, 40);
+	-webkit-text-stroke: 1px rgb(129, 92, 11);
+	font-size: 20px;
+	
+}
+
+.texto
+{
+	font-family: "fuente";
+	src: url(../font/fuente.ttf);
+	color:rgb(255, 255, 255);
+	-webkit-text-stroke: 1px rgb(129, 92, 11);
+	font-size: 20px;
+}
+
+
+/*-----------------------hml2--------------------------------------*/
+#header2
+{
+	margin: 0;
+	width: 100%;
+	min-width: 1200px;
+	height: 170px;
+	font-size: 20px;
+	font-family: "fuente";
+	background: rgba(145, 108, 28, 0.411);
+	border-bottom: 1px solid rgba(241, 169, 12, 0.6);
+	text-align: center;	
+}
+
+#imageheader2
+{
+    height: 150px;
+	width: 150px;
+	float:left; 
+	margin-right: 30px;
+}
+
+
+
+
+/*-----------------------hml2--------------------------------------*/
+
+#header3
+{
+	margin: 0;
+	width: 100%;
+	min-width: 1200px;
+	height: 170px;
+	font-size: 20px;
+	font-family: "fuente";
+	background: rgba(145, 108, 28, 0.411);
+	border-bottom: 1px solid rgba(241, 169, 12, 0.6);
+	text-align: center;	
+}
+
+#imageheader3
+{
+    height: 150px;
+	width: 150px;
+	float:left; 
+	margin-right: 30px;
+}
+
+/*-----------------------hml3--------------------------------------*/
+#header4
+{
+	margin: 0;
+	width: 100%;
+	min-width: 1200px;
+	height: 170px;
+	font-size: 20px;
+	font-family: "fuente";
+	background: rgba(87, 68, 27, 0.411);
+	border-bottom: 1px solid rgba(241, 169, 12, 0.6);
+	text-align: center;	
+}
+
+#imageheader4
+{
+    height: 150px;
+	width: 150px;
+	float:left; 
+	margin-right: 30px;
+}
+
+.json
+{
+	background: rgb(255, 250, 250);
+}
+#foto_coctel
+{
+	width: 200px;
+	height: 200px;
+}
+
+
+#todo
+{
+	background: rgba(194, 194, 194, 0.315);
+	font-family: "menulis";
+	src: url(../font/menulis.ttf);
+
+	width: 900px;
+	height: 900px;
+	text-align: justify;
+	text-justify: inter-word;
+	margin-left: 25%; 
+	margin-top: 2%;
+	font-size: 20px;
+	padding:10px;
+	line-height : 28px;
+	border-radius: 50px 50px;
+
+
+
+}
+#imagen
+{
+	width: 200px;
+	height: 200px;
+}
+/*---------------------------------------------------------------------------------------------------------*/
+#info_coctel4
+{
+
+	font-family: "menulis";
+	src: url(../font/menulis.ttf);
+	width: 1000px;
+	height: 900px;
+	color:rgb(23, 23, 23);
+	text-align: justify;
+	text-justify: inter-word;
+	margin-left: 205px;
+	margin-top: 2%;
+	font-size: 20px;
+	padding:10px;
+	line-height : 28px;
+	border-radius: 50px 50px;
+	font-size: 30px;
+}
